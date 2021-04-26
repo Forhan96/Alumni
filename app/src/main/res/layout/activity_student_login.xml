@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentLoginActivity">
+
+    <EditText
+        android:id="@+id/user_name_et_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_bg"
+        android:hint="Username"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
+        android:padding="10dp"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/password_et_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_bg"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/user_name_et_id"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/btn_sign_in_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:text="Sign In"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:layout_below="@+id/password_et_id"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"/>
+
+</RelativeLayout>

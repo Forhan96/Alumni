@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.neub.alumni.LaunchingActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="See what's\nhappening in the world\nright now."
+        android:textSize="36sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:textColor="#000"
+        android:layout_marginStart="20dp" />
+
+    <Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:text="Sign In"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:layout_below="@+id/text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/dont_have_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?"
+        android:textSize="16sp"
+        android:layout_below="@+id/btn_sign_in"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/sign_up_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="16sp"
+        android:textColor="#118ECE"
+        android:layout_below="@+id/btn_sign_in"
+        android:layout_toRightOf="@+id/dont_have_account"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/dont_have_account"
+        android:layout_marginStart="10dp" />
+
+
+</RelativeLayout>

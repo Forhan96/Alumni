@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "690717609093",
+    "firebase_url": "https://alumni-bc97b.firebaseio.com",
+    "project_id": "alumni-bc97b",
+    "storage_bucket": "alumni-bc97b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690717609093:android:a1ac5eb6fc74506b402dec",
+        "android_client_info": {
+          "package_name": "com.neub.alumni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690717609093-l9p9telo4dfuu38akf6t1df97php52al.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClTDeIcbFvSmbkeQzP9s-13nlgXeKZxvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690717609093-l9p9telo4dfuu38akf6t1df97php52al.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

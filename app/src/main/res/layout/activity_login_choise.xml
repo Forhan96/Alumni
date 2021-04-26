@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginChoiseActivity">
+
+    <Button
+        android:id="@+id/alumni_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:text="Alumni"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp" />
+
+    <Button
+        android:id="@+id/student_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:text="Student"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:layout_below="@+id/alumni_btn_id"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/faculty_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:text="Faculty"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:layout_below="@+id/student_btn_id"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"/>
+
+
+
+</RelativeLayout>

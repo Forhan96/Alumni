@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.neub.alumni.LoginActivity">
+
+    <EditText
+        android:id="@+id/reg_name_et_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_bg"
+        android:hint="Full Name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
+        android:padding="10dp"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/reg_email_et_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_bg"
+        android:hint="Email"
+        android:layout_below="@+id/reg_name_et_id"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/reg_phone_no_et_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_bg"
+        android:hint="Phone No."
+        android:layout_below="@+id/reg_email_et_id"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/reg_password_et_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_bg"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/reg_phone_no_et_id"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:singleLine="true"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/reg_password_et_id"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <RadioButton
+            android:id="@+id/rb_alumni_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alumni"
+            android:checked="false"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rb_student_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student"
+            android:checked="false"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_faculty_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faculty"
+            android:checked="false"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"/>
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_sign_up_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:text="Sign Up"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:layout_below="@+id/radio_group_id"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
